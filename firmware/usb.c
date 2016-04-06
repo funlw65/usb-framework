@@ -71,6 +71,7 @@ static int control_request(usbd_device *usbd_dev, struct usb_setup_data *req, ui
 	(void)len;
 	(void)complete;
 	(void)usbd_dev;
+	(void)req;
 
 	// TODO: HANDLE CONTROL REQUESTS HERE
 
